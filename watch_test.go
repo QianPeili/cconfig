@@ -12,7 +12,7 @@ func Test_StartWatch(t *testing.T) {
 	err := InitKV(Config{
 		Addr:    "192.168.88.236:8500",
 		Env:     "beta",
-		KeyPath: "games/scmj",
+		KeyPath: "test/game",
 	})
 	if err != nil {
 		t.Error(err)
